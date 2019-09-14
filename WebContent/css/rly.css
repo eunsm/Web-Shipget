@@ -1,0 +1,56 @@
+.euwrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+.euwrap textarea {
+    width: 100%;
+    resize: none;
+    min-height: 4.5em;
+    line-height:1.6em;
+    max-height: 4.5em;
+    color : black;
+}
+.euwrap span {
+    position: absolute;
+    bottom: 6px;
+    right: 5px;
+}
+#eucounter {
+  background:rgba(255,0,0,0.5);
+  border-radius: 0.5em;
+  padding: 0 .5em 0 .5em;
+  font-size: 1em;
+  color : black;
+}  
+
+#eucounter2 {
+  background:rgba(255,0,0,0.5);
+  border-radius: 0.5em;
+  padding: 0 .5em 0 .5em;
+  font-size: 1em;
+  color : black;
+}  
+
+#rebtn{
+		border: none;
+	    outline: none;
+	    cursor: pointer;
+	    color: #fff;
+	    background: #F06464;
+	    width: auto;
+	   	padding : 1.5em;
+	    font-size: 1em;
+	    margin: 0em 0 0;
+	    -webkit-transition:.5s all;
+		-moz-transition:.5s all;
+		-o-transition:.5s all;
+		-ms-transition:.5s all;
+		transition:.5s all;
+	    text-transform: uppercase;
+		-webkit-appearance:none;
+	}
+#rebtn:hover{
+		 background: #B7A4EE;
+}
